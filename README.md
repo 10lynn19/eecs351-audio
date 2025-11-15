@@ -4,6 +4,7 @@ Run the command below to download the processed audio bundle from Google Drive, 
 
 ```bash
 bash scripts/download_processed.sh
+```
 
 **What this script does**
 - Downloads the archive and its `.sha256` from Google Drive via `gdown`
