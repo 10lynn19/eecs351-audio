@@ -15,6 +15,3 @@ Prerequisites
 	•	If prompted: install zstd
 	•	macOS: brew install zstd
 	•	Ubuntu: sudo apt-get install zstd
-git add README.md
-git commit -m "docs: add bilingual instructions to download processed data"
-git push
