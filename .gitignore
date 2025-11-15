@@ -1,0 +1,21 @@
+.venv/
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+data/raw/
+data/processed/
+data/features/
+data/**/slices/
+**/*.wav
+**/*.npy
+outputs/
+*.tar.zst
+*.tar.gz
+*.sha256
+
+# generated meta indices (we don't version these)
+data/meta/data_dict*.csv
+data/meta/slices.csv
+data/meta/features_index.csv
+data/meta/label_map.json
