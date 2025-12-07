@@ -1,0 +1,12 @@
+{
+  "thresholds": {
+    "car_horn": 0.3,
+    "construction": 0.62,
+    "engine": 0.5,
+    "glass_breaking": 0.78,
+    "impulse_bang": 0.95,
+    "music": 0.58,
+    "other": 0.65,
+    "siren": 0.28
+  }
+}

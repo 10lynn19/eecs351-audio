@@ -1,0 +1,71 @@
+{
+  "split": "test",
+  "n_samples": 10181,
+  "accuracy": 0.6675179255475886,
+  "macro_f1": 0.6004416711042988,
+  "weighted_f1": 0.6696134996360541,
+  "per_class": {
+    "car_horn": {
+      "precision": 0.6134969325153374,
+      "recall": 0.8,
+      "f1": 0.6944444444444444,
+      "support": 250.0
+    },
+    "construction": {
+      "precision": 0.647673314339981,
+      "recall": 0.720168954593453,
+      "f1": 0.682,
+      "support": 1894.0
+    },
+    "engine": {
+      "precision": 0.5615034168564921,
+      "recall": 0.4749518304431599,
+      "f1": 0.5146137787056367,
+      "support": 1038.0
+    },
+    "glass_breaking": {
+      "precision": 0.17277486910994763,
+      "recall": 0.6111111111111112,
+      "f1": 0.2693877551020408,
+      "support": 54.0
+    },
+    "impulse_bang": {
+      "precision": 0.531496062992126,
+      "recall": 0.7758620689655172,
+      "f1": 0.6308411214953271,
+      "support": 174.0
+    },
+    "music": {
+      "precision": 0.6120840630472855,
+      "recall": 0.6360327570518653,
+      "f1": 0.6238286479250335,
+      "support": 1099.0
+    },
+    "other": {
+      "precision": 0.7301851466611192,
+      "recall": 0.6906729634002361,
+      "f1": 0.7098796642734352,
+      "support": 5082.0
+    },
+    "siren": {
+      "precision": 0.7589098532494759,
+      "recall": 0.6135593220338983,
+      "f1": 0.6785379568884724,
+      "support": 590.0
+    }
+  },
+  "thresholds": {
+    "car_horn": 0.35,
+    "construction": 0.6,
+    "engine": 0.45,
+    "glass_breaking": 0.7,
+    "impulse_bang": 0.95,
+    "music": 0.55,
+    "other": 0.6,
+    "siren": 0.35
+  },
+  "confusion_matrix_shape": [
+    8,
+    8
+  ]
+}

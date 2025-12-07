@@ -1,0 +1,78 @@
+{
+  "thresholds": {
+    "car_horn": 0.35,
+    "construction": 0.6,
+    "engine": 0.45,
+    "glass_breaking": 0.7,
+    "impulse_bang": 0.95,
+    "music": 0.55,
+    "other": 0.6,
+    "siren": 0.35
+  },
+  "picked": [
+    {
+      "cls": "car_horn",
+      "t": 0.05,
+      "precision": 0.5431918008705243,
+      "recall": 0.909313725467909,
+      "f1": 0.6801099861393067,
+      "picked_by": "recall"
+    },
+    {
+      "cls": "construction",
+      "t": 0.55,
+      "precision": 0.748571428567864,
+      "recall": 0.7840399002454662,
+      "f1": 0.7658952446944399,
+      "picked_by": "f1"
+    },
+    {
+      "cls": "engine",
+      "t": 0.2,
+      "precision": 0.529066666663845,
+      "recall": 0.7167630057751679,
+      "f1": 0.6087756931766476,
+      "picked_by": "f1"
+    },
+    {
+      "cls": "glass_breaking",
+      "t": 0.2,
+      "precision": 0.1583710407168158,
+      "recall": 0.6481481480281207,
+      "f1": 0.254545451370843,
+      "picked_by": "f1"
+    },
+    {
+      "cls": "impulse_bang",
+      "t": 0.95,
+      "precision": 0.45631067959688315,
+      "recall": 0.7966101694465192,
+      "f1": 0.5802469089252148,
+      "picked_by": "f1"
+    },
+    {
+      "cls": "music",
+      "t": 0.35,
+      "precision": 0.5029717681983434,
+      "recall": 0.6957862281531779,
+      "f1": 0.5838723538996546,
+      "picked_by": "f1"
+    },
+    {
+      "cls": "other",
+      "t": 0.05,
+      "precision": 0.5968628502472223,
+      "recall": 0.8751720070751422,
+      "f1": 0.709708268730919,
+      "picked_by": "f1"
+    },
+    {
+      "cls": "siren",
+      "t": 0.05,
+      "precision": 0.24760946149850224,
+      "recall": 0.9196261682071097,
+      "f1": 0.390166531150683,
+      "picked_by": "recall"
+    }
+  ]
+}

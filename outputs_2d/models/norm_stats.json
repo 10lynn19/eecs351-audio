@@ -1,0 +1,16 @@
+{
+  "mean": -32.54518654480423,
+  "std": 17.015489573933195,
+  "n_mels": 64,
+  "frames": 100,
+  "classes": [
+    "car_horn",
+    "construction",
+    "engine",
+    "glass_breaking",
+    "impulse_bang",
+    "music",
+    "other",
+    "siren"
+  ]
+}
