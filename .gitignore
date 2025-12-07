@@ -19,3 +19,24 @@ data/meta/data_dict*.csv
 data/meta/slices.csv
 data/meta/features_index.csv
 data/meta/label_map.json
+# archives & releases
+*.zip
+*.tar
+*.tar.*
+*.zst
+
+# data (large)
+data/raw/
+data/processed/
+data/features/
+data-processed-*.tar.*
+
+# venv & caches
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# large outputs
+outputs/
+outputs_2d/eval/*probs.npz
